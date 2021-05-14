@@ -1,0 +1,14 @@
+{
+    "type" : "object",
+    "properties" : {
+        "price" : {
+        	"type" : "object",
+        	"properties":{
+        		"data":{"type":"string"}
+        	},
+        	"required":["data"]
+        },
+        "name" : {"type" : "string"}
+    },
+    "required": ["email"]
+}
