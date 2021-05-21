@@ -271,12 +271,9 @@ CREATE TABLE `django_session` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
 INSERT INTO `django_session` (`session_key`, `session_data`, `expire_date`) VALUES
-('1uv3p5enhszcacr7egfvciz15frijto1',	'NDk3ZDBhNmFlYTZkZTEzZGNmZDVlODVhZGU4YzlkMDZkMjM3OTBjMTp7fQ==',	'2020-05-06 12:27:39.254952'),
-('4ojf2kpz3cncpf25aa4wyi5go56ls66r',	'NDk3ZDBhNmFlYTZkZTEzZGNmZDVlODVhZGU4YzlkMDZkMjM3OTBjMTp7fQ==',	'2021-04-07 06:45:23.652376'),
-('c0cx2z1hmc0vsvwu71mkhozhabem2hun',	'YzZkY2ZmMjY1N2VlYmQxODgwMDlhZTJmMmM1NmQ2Mjk0Y2RmNjk0ZTp7InVzZXJJZCI6MX0=',	'2021-03-31 11:49:27.832905'),
-('dytfewrs19xu6y3pgc550xrqz1faw2o8',	'YzZkY2ZmMjY1N2VlYmQxODgwMDlhZTJmMmM1NmQ2Mjk0Y2RmNjk0ZTp7InVzZXJJZCI6MX0=',	'2020-05-06 12:58:27.092432'),
-('gicj2sp6qh5tug6t4q74lfe9fddfriy9',	'YzZkY2ZmMjY1N2VlYmQxODgwMDlhZTJmMmM1NmQ2Mjk0Y2RmNjk0ZTp7InVzZXJJZCI6MX0=',	'2021-05-11 13:24:02.894226'),
-('rasplppq8u8tgcfhpovgt98wsz9jblfy',	'YzZkY2ZmMjY1N2VlYmQxODgwMDlhZTJmMmM1NmQ2Mjk0Y2RmNjk0ZTp7InVzZXJJZCI6MX0=',	'2021-04-07 06:20:30.209585');
+('bpd8vroixklhbgtzx7qd9q2zxovbimbg',	'YzZkY2ZmMjY1N2VlYmQxODgwMDlhZTJmMmM1NmQ2Mjk0Y2RmNjk0ZTp7InVzZXJJZCI6MX0=',	'2021-05-20 09:52:47.714057'),
+('hgk1pyqqotyumui324ak348okd3lszlu',	'Yzg0YmEwYzk3NmNhMDhjZWRjMjc0Y2UxNzgwN2IxNWY1ZTFlMmE5NDp7InVzZXJJZCI6Mn0=',	'2021-05-21 06:48:27.679262'),
+('ursu8vs68x20hq397a4feparhpu8moy9',	'Yzg0YmEwYzk3NmNhMDhjZWRjMjc0Y2UxNzgwN2IxNWY1ZTFlMmE5NDp7InVzZXJJZCI6Mn0=',	'2021-06-04 17:39:25.306812');
 
 DROP TABLE IF EXISTS `group_details`;
 CREATE TABLE `group_details` (
@@ -324,7 +321,8 @@ CREATE TABLE `user_details` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
 INSERT INTO `user_details` (`user_id`, `user_name`, `password`, `additional_info`, `r_group_id`, `status`, `r_status_id`) VALUES
-(1,	'arun@arun.com',	'5b8d2ec940b1099b2bc1802604d15d97',	'',	1,	'Y',	1);
+(1,	'arun@arun.com',	'5b8d2ec940b1099b2bc1802604d15d97',	'',	1,	'Y',	1),
+(2,	'sk@gmail.com',	'5b8d2ec940b1099b2bc1802604d15d97',	'',	1,	'Y',	1);
 
 DROP TABLE IF EXISTS `user_type_master`;
 CREATE TABLE `user_type_master` (
@@ -337,4 +335,4 @@ CREATE TABLE `user_type_master` (
 INSERT INTO `user_type_master` (`user_type_id`, `user_type_name`, `user_type_status`) VALUES
 (1,	'Finance',	'Y');
 
--- 2021-04-27 13:28:43
+-- 2021-05-21 17:41:12
