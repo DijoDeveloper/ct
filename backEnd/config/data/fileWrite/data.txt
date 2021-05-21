@@ -1,1 +1,0 @@
-[{"model": "signIn.user_details", "pk": 1, "fields": {"r_group_id": 1, "r_corporate_id": 1, "r_status_id": 1, "user_name": "arun", "password": "5b8d2ec940b1099b2bc1802604d15d97", "additional_info": "", "time_zone": "", "created_by": "1", "created_date": "2020-04-22", "updated_by": 1, "status": "Y"}}]
