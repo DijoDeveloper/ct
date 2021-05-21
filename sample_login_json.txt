@@ -1,0 +1,11 @@
+# post man hit request for signin
+
+{
+"action": "userLoginAction",
+  "data": {
+    "userid": "sk@gmail.com",
+    "password": "Infi@123"
+    }
+}
+
+url - localhost:8000/authenticatet/8000/
